@@ -1,0 +1,4 @@
+-- Write your query below
+SELECT MIN(ABS(p1.x - p2.x)) as shortest
+FROM point p1
+JOIN point p2 on p1.x < p2.x;
